@@ -1,0 +1,39 @@
+.feature-section
+
+
+    h2
+        margin: 0
+        font-weight: 100
+        font-size: 53px
+        color: $brand-aqua
+        margin-bottom: 10px
+
+    p
+        font-weight: 100
+        font-size: 24px
+        color: $brand-navy
+        line-height: 42px
+
+    img
+        // width: 400px
+        // float: right
+        // position: absolute
+        // right: 0
+        // top: 0
+        +j-column(.5)
+
+    .content
+        // display: inline-block
+        +j-column(.5)
+
+    .container
+        +j-center(1024px)
+        +j-cf
+        padding: 40px
+        position: relative
+
+    &.bg-gray
+        background: #F0F0F0
+
+    .center
+        text-align: center
