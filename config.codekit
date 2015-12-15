@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19076",
+"creatorBuild": "19102",
 "files": {
 	"\/css\/style.css": {
 		"fileType": 16,
@@ -26,7 +26,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 72495,
+		"initialSize": 345828,
 		"inputAbbreviatedPath": "\/img\/map-background.png",
 		"outputAbbreviatedPath": "\/img\/map-background.png",
 		"outputPathIsOutsideProject": 0,
@@ -37,9 +37,31 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3516,
+		"initialSize": 11251,
 		"inputAbbreviatedPath": "\/img\/monitr-logo.png",
 		"outputAbbreviatedPath": "\/img\/monitr-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/tv-news-icons.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/tv-news-icons.png",
+		"outputAbbreviatedPath": "\/img\/tv-news-icons.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/tv-refresh-chrome.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/tv-refresh-chrome.png",
+		"outputAbbreviatedPath": "\/img\/tv-refresh-chrome.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -48,9 +70,20 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 10674,
+		"initialSize": 26054,
 		"inputAbbreviatedPath": "\/img\/tv-refresh.png",
 		"outputAbbreviatedPath": "\/img\/tv-refresh.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/tv-screenshot-chrome.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/tv-screenshot-chrome.png",
+		"outputAbbreviatedPath": "\/img\/tv-screenshot-chrome.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -59,7 +92,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 194118,
+		"initialSize": 1.42184e+06,
 		"inputAbbreviatedPath": "\/img\/tv-screenshot.png",
 		"outputAbbreviatedPath": "\/img\/tv-screenshot.png",
 		"outputPathIsOutsideProject": 0,
@@ -1504,6 +1537,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/scss\/2-basics\/_media-queries.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/2-basics\/_media-queries.scss",
+		"outputAbbreviatedPath": "\/scss\/css\/_media-queries.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/scss\/2-basics\/_selection-colors.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1719,8 +1768,16 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"no_plusplus": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"no_stand_alone_at": {
@@ -1729,6 +1786,10 @@
 			},
 		"no_tabs": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"no_throwing_strings": {

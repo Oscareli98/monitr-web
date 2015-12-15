@@ -28,53 +28,73 @@
         <li class="logo"><a href="#"><img src="img/monitr-logo.png" alt="monitr logo"></a></li>
 
         <!-- Nav -->
-        <li><a href="#">features</a></li>
-        <li><a href="#">contact</a></li>
-        <li><a href="#">support</a></li>
+        <div class="hidden-small">
+          <li><a href="#features">features</a></li>
+          <li><a href="#">contact</a></li>
+          <li><a href="#">support</a></li>
+        </div>
+        <div class="visible-small">
+          <li><a href="#">menu</a></li>
+        </div>
       </ul>
     </nav>
 
     <section class="cta">
       <h1>the world at a glance</h1>
-      <a href="#" class="btn">get monitr</a>
+      <a href="#download" class="btn">get monitr</a>
     </section>
     </div>
 
   </header>
 
-  <section class="body-content">
+  <section class="body-content" id="features">
 
     <section class="feature-section feature-1">
       <div class="container">
+
+      <img class="feature visible-small" src="img/tv-screenshot-chrome.png" alt="monitr UI">
 
       <div class="content">
       <h2>The Latest News</h2>
       <p>Monitr pulls in news from high quality sources worldwide to give you the most up view of whats going on right on your TV.</p>
       </div>
 
-      <img src="img/tv-screenshot.png" alt="monitr UI">
+      <img class="feature hidden-small" src="img/tv-screenshot-chrome.png" alt="monitr UI">
       </div>
     </section>
 
     <section class="feature-section feature-2 bg-gray">
+      <div class="container">
+        <img class="feature" src="img/tv-refresh-chrome.png" alt="tv refreshing">
+        <div class="content">
+          <h2>Always Updating</h2>
+          <p>Monitr intelligently updates, arranges, and cycles through the newest stories worldwide to make sure you’re always seeing the latest headlines.</p>
+        </div>
+      </div>
+    </section>
 
+    <section class="feature-section feature-3">
       <div class="container">
 
-      <img src="img/tv-refresh.png" alt="tv refreshing">
+      <img class="feature visible-small" src="img/tv-news-icons.png" alt="monitr UI">
 
       <div class="content">
-      <h2>Always Updating</h2>
-      <p>Monitr intelligently updates, arranges, and cycles through the newest stories worldwide to make sure you’re always seeing the latest headlines.</p>
+      <h2>Just what you want</h2>
+      <p>With Monitr, you can choose exactly what sources, feeds, and categories you do and don't want to see. </p>
       </div>
 
-
-
+      <img class="feature hidden-small" src="img/tv-news-icons.png" alt="monitr UI">
       </div>
 
+    </section>
+
+    <section class="feature-section bg-gray" id="download">
       <div class="container center">
-      <a href="#" class="btn btn-large">get monitr</a>
+        <h2>Get Monitr</h2>
+        <p>Search <strong>"Monitr"</strong> on the Apple TV App Store.</p>
+        <!-- <a href="#" class="btn btn-large">get monitr</a> -->
+        <img src="img/app-store.svg" alt="Download on the Apple TV App Store">
       </div>
-
     </section>
 
   </section>
@@ -88,6 +108,7 @@
         <li class="logo"><a href="#"><img src="img/monitr-logo.png" alt="monitr logo"></a></li>
 
         <!-- Nav -->
+         <!-- Nav -->
         <div class="hidden-small">
           <li><a href="#">features</a></li>
           <li><a href="#">contact</a></li>

@@ -4,27 +4,41 @@
     h2
         margin: 0
         font-weight: 100
-        font-size: 53px
+        font-size: 40px
         color: $brand-aqua
         margin-bottom: 10px
 
+        +medium
+            font-size: 53px
+
     p
         font-weight: 100
-        font-size: 24px
+        font-size: 18px
         color: $brand-navy
-        line-height: 42px
+        line-height: 35px
 
-    img
+        +medium
+            font-size: 24px
+            line-height: 42px
+
+    img.feature
         // width: 400px
         // float: right
         // position: absolute
         // right: 0
         // top: 0
-        +j-column(.5)
+        //
+        margin-bottom: 30px
+        +j-column(1)
+        +medium
+            +j-column(.5)
+            margin-bottom: 0
 
     .content
         // display: inline-block
-        +j-column(.5)
+        +j-column(1)
+        +medium
+            +j-column(.5)
 
     .container
         +j-center(1024px)
