@@ -325,15 +325,15 @@ header {
 
 @-webkit-keyframes animatedBackground {
   from {
-    background-position: 0 0; }
+    background-position: 0 25%; }
   to {
-    background-position: 100% 0; } }
+    background-position: 100% 25%; } }
 
 @keyframes animatedBackground {
   from {
-    background-position: 0 0; }
+    background-position: 0 25%; }
   to {
-    background-position: 100% 0; } }
+    background-position: 100% 25%; } }
 footer {
   background: #324D5C;
   position: relative;
@@ -401,6 +401,8 @@ nav ul {
   @media (min-width: 768px) {
     .feature-section h2 {
       font-size: 53px; } }
+.feature-section.highlight h2 {
+  color: #DE5B49; }
 .feature-section p {
   font-weight: 100;
   font-size: 18px;

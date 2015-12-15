@@ -2,6 +2,8 @@ header
     background: $brand-navy
     position: relative
     width: 100%
+    // box-shadow: 0 -20px 40px -30px rgba(0,0,0,.5) inset
+
 
     .map
         position: absolute
@@ -11,7 +13,7 @@ header
         height: 100%
         background: url('../img/map-background.png')
         background-size: cover
-        // animation: animatedBackground 40s linear infinite
+        // background-attachment: fixed
         z-index: 0
 
     .content
@@ -36,6 +38,6 @@ header
 
 @keyframes animatedBackground
     from
-        background-position: 0 0
+        background-position: 0 25%
     to
-        background-position: 100% 0
+        background-position: 100% 25%
